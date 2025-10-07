@@ -1,0 +1,19 @@
+.navbar {
+    background: rgba(12, 18, 43, .7);
+    backdrop-filter: saturate(140%) blur(8px);
+    
+}
+.navbar-brand{
+    color: white !important;
+    font-weight: 700 !important;
+}
+
+
+.navbar .nav-link {
+    color: #cfe3ff
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: var(--accent)
+}

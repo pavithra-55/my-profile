@@ -1,0 +1,19 @@
+.skillSection{
+    padding: 70px 0;
+}
+.card {
+    background: linear-gradient(180deg, rgba(255, 255, 255, .03), rgba(255, 255, 255, .02));
+    border: 1px solid rgba(255, 255, 255, .08);
+
+}
+#skills .card:hover {
+    box-shadow: 0 8px 20px var(--accent);
+}
+.card h3 {
+    color: var(--accent);
+}
+.progress {
+    height: 15px;
+    background: rgba(255, 255, 255, .08);
+}
+

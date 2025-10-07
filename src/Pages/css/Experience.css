@@ -1,0 +1,34 @@
+.experienceSection{
+    padding: 2rem 0;
+    margin: 2rem;
+}
+.textColor {
+      color: var(--bg);
+      
+}
+
+/* Media Queries  */
+/* Large Devices >=992 */
+@media only screen and (min-width:1440px) {
+   
+
+}
+
+/* Large Devices <= 992 */
+@media only screen and (max-width:992px) {}
+
+/* Tablets */
+@media (max-width:768px) {}
+
+/* Mobile  */
+@media only screen and (max-width:576px) {
+    .textColor h3{
+            font-size: small;
+            font-weight: 800;
+        }
+    .textColor h4 {
+        font-size: small;
+        font-weight: 700;
+    }
+}
+
