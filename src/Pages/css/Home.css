@@ -4,9 +4,10 @@
      display: grid;
      place-items: center;
      text-align: center;
-     background: linear-gradient(180deg, #1f3143 0%, #4b5560 60%);
+     background: linear-gradient(180deg, #29415a 0%, #62707e 60%);
      color: #b6cde5;
  }
+ 
  .names {
      font-size: 60px;
      font-weight: bold;
@@ -17,9 +18,10 @@
      -webkit-text-fill-color: transparent;
      
  }
+
 .profile {
-    width: 550px;
-    height: 620px;
+    width: 450px;
+    height: 500px;
     object-fit: cover;
     transition: filter 0.3s ease;
 }

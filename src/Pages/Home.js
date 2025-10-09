@@ -2,7 +2,7 @@ import React from "react";
 import './css/Home.css';
 import {Container, Row, Col,Button,Image} from 'react-bootstrap';
 import "bootstrap-icons/font/bootstrap-icons.css";
-import profileImage from './assets/img/mypic5.png';
+import profileImage from './assets/img/home2.png';
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
         color: '#082b2a',
         };
     return (
-        <div className="hero section">
+        <div className="hero section" id="hero">
             <Container>
                 <Row className="align-items-center">
                     <Col lg='6' className="text-lg-start text-center">
@@ -32,7 +32,7 @@ export default function Home() {
                         </div>
                     </Col>
                     <Col lg='6'>
-                        {/* <Image src={profileImage} className="profile"/> */}
+                        <Image src={profileImage} className="profile"/>
                     </Col>
                 </Row>
             </Container>

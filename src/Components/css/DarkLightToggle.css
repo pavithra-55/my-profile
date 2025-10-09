@@ -1,0 +1,16 @@
+
+.theme-switch .form-check-input{
+    width: 45px;
+    height: 20px;
+    background-color: var(--text);
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.theme-switch .form-check-input:checked {
+    background-color: var(--bg);
+}
+.theme-switch .form-check-label{
+    margin: 2px;
+}
