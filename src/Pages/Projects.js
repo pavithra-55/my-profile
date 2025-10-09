@@ -1,5 +1,6 @@
-import React, { use, useState } from "react";
-import { Container, Row, Col, Badge, Stack, Card,Modal,Pagination } from "react-bootstrap";
+import React, { useState } from "react";
+import { Container, Row, Col, Badge, Stack, Card, Modal } from "react-bootstrap";
+// import { Pagination } from "react-bootstrap";
 import './css/Projects.css';
 import { projectData } from '../Components/ProjectList';
 import PaginationList from "../Components/PaginationList";
@@ -17,7 +18,7 @@ export default function Projects() {
      
     
     //Pagination get current Projects
-    const totalPages = Math.ceil(projectData.length / projectPerPage);
+    // const totalPages = Math.ceil(projectData.length / projectPerPage);
     const startIndex = (activePage - 1) * projectPerPage;
     const currentProjects = usePagination? projectData.slice(startIndex, startIndex + projectPerPage):projectData;
 
@@ -57,7 +58,7 @@ export default function Projects() {
                                     </span>)}
                                 </div>
                                 <Card.Body>
-                                    <a><h3>{project.projectName}</h3></a>
+                                    <h3>{project.projectName}</h3>
                                     <Card.Text className="text-white">{project.description}</Card.Text>
                                     <Stack direction="horizontal" gap={2}>
                                         {project.techStack.map((tech,index) => (

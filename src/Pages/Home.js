@@ -23,11 +23,11 @@ export default function Home() {
                             Bootstrap, JavaScript, ReactJS.</span></p>
                         <Link to="/contact"><Button style={accentColor}><i className="bi bi-envelope me-2"></i>Hire me</Button></Link>
                         <div className="gap-3 mt-4 fs-4">
-                             <a className="text-decoration-none text-light link-underline p-2" href="https://github.com/pavithra-55" aria-label="GitHub" target="_blank"><i
+                             <a className="text-decoration-none text-light link-underline p-2" rel="noreferrer" href="https://github.com/pavithra-55" aria-label="GitHub" target="_blank"><i
                             className="bi bi-github"></i></a>
-                            <a className="text-decoration-none text-light link-underline p-2" href="https://www.linkedin.com/in/pavithra1755ns" aria-label="LinkedIn" target="_blank"><i
+                            <a className="text-decoration-none text-light link-underline p-2" rel="noreferrer" href="https://www.linkedin.com/in/pavithra1755ns" aria-label="LinkedIn" target="_blank"><i
                                     className="bi bi-linkedin"></i></a>
-                            {/* <a className="text-decoration-none text-light link-underline p-2" href="https://leetcode.com/u/Pavi_55/" aria-label="LeetCode" target="_blank"><i
+                            {/* <a className="text-decoration-none text-light link-underline p-2" rel="noreferrer" href="https://leetcode.com/u/Pavi_55/" aria-label="LeetCode" target="_blank"><i
                                     className="bi bi-code-slash"></i></a> */}
                         </div>
                     </Col>

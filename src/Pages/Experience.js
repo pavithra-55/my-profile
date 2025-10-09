@@ -36,7 +36,7 @@ export default function Experience() {
                     >
                         <div className="textColor">
                             <h3 className="vertical-timeline-element-title">Software Engineer @Pragis</h3>
-                            <h4 className="vertical-timeline-element-subtitle"></h4>
+                            {/* <h4 className="vertical-timeline-element-subtitle"></h4> */}
                             <p>Built and maintained full-stack websites using Laravel + SQL basics.</p>
                             <p>Collaborated with clients to gather requirements and deliver features.</p>
                         </div>

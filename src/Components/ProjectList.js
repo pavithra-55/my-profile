@@ -1,4 +1,4 @@
-import React from 'react';
+
 import project1 from '../Pages/assets/img/yugan-bakes-project.jpg';
 import project2 from '../Pages/assets/img/blog-project.png';
 import video2 from './video/project1.mp4';

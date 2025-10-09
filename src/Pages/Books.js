@@ -8,7 +8,7 @@ export default function Books() {
     const [activePage, setActivePage] = useState(1);
     const booksPerPage = 3;
     const usePagination = false;
-    const totalPages = Math.ceil(BookList.length / booksPerPage);
+    // const totalPages = Math.ceil(BookList.length / booksPerPage);
     const startIndex = (activePage - 1) * booksPerPage;
     const currentBooks = usePagination ?BookList.slice(startIndex,startIndex+booksPerPage): BookList;
     return (

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './css/Navbar.css';
 import { NavLink } from "react-router-dom";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import DarkLightToggle from "./DarkLightToggle";
+// import DarkLightToggle from "./DarkLightToggle";
 
 export default function Navigation({ person }) {
   const [expended, setExpended] = useState(false);

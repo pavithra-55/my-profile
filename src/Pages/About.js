@@ -33,7 +33,7 @@ export default function About() {
                         UI/UX,
                         and collaborating with cross-functional teams.
                         </p>
-                        <a href={Resume} target="_blank"><Button style={accentColor}><i className="bi bi-file-earmark-text me-2"></i>View my
+                        <a href={Resume} target="_blank" rel="noreferrer"><Button style={accentColor}><i className="bi bi-file-earmark-text me-2"></i>View my
                         CV</Button></a>
                     </Col>
                 </Row>
