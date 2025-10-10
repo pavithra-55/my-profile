@@ -1,0 +1,7 @@
+.pagination{
+    border-color: var(--accent) !important;
+}
+
+.page-link{
+    background-color: var(--accent);
+}

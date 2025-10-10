@@ -21,7 +21,7 @@ function PaginationList({ totalItems, itemsPerPage, activePage, setActivePage })
   }
 
   return (
-    <Pagination className="justify-content-center mt-3 mb-5">
+    <Pagination className="justify-content-center mt-3 mb-5 w-1">
       <Pagination.First onClick={() => setActivePage(1)} disabled={activePage === 1} />
       <Pagination.Prev onClick={() => setActivePage(activePage - 1)} disabled={activePage === 1} />
       {items}

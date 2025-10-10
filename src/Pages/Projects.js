@@ -16,6 +16,8 @@ export default function Projects() {
         const updatePerPage = () => {
             if (window.innerWidth < 768) {
                 setProjectPerPage(1);
+            } else if(window.innerWidth < 992){
+                setProjectPerPage(2);
             } else {
                 setProjectPerPage(3);
             }
@@ -30,7 +32,9 @@ export default function Projects() {
     
     const usePagination = true; //if you don't need pagination change true -> false
      
-    
+    useEffect(() => {
+    setActivePage(1);
+}, [projectPerPage]);
     //Pagination get current Projects
     // const totalPages = Math.ceil(projectData.length / projectPerPage);
     const startIndex = (activePage - 1) * projectPerPage;
