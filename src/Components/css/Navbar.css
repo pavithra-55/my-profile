@@ -17,3 +17,6 @@
 .navbar .nav-link:hover {
     color: var(--accent)
 }
+.navbar-toggler{
+    background: #cfe3ff;
+}
