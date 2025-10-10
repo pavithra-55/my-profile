@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Badge, Stack, Card, Modal } from "react-bootstrap";
 // import { Pagination } from "react-bootstrap";
 import './css/Projects.css';
@@ -10,10 +10,24 @@ export default function Projects() {
     const [show, setShow] = useState(false);
     const [selectedVideo, setSelectedVideo] = useState(null);
     const [proName, setProName] = useState("");
+    const [projectPerPage, setProjectPerPage] = useState(3);
  
+    useEffect(() => {
+        const updatePerPage = () => {
+            if (window.innerWidth < 768) {
+                setProjectPerPage(1);
+            } else {
+                setProjectPerPage(3);
+            }
+        };
+        updatePerPage();
+        window.addEventListener("resize", updatePerPage);
+        return () => window.removeEventListener("resize", updatePerPage);
+    }, []);
+
     //Pagination
     const [activePage, setActivePage] = useState(1);
-    const projectPerPage = 3;
+    
     const usePagination = true; //if you don't need pagination change true -> false
      
     
