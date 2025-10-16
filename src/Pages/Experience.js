@@ -13,7 +13,7 @@ export default function Experience() {
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work "
-                        contentStyle={{ background: '#dde3ea', color: 'var(--text)',border:'4px solid var(--accent)',borderRadius:'12px' }}
+                        contentStyle={{ background: '#dde3ea', color: 'var(--light)',border:'4px solid var(--accent)',borderRadius:'12px' }}
                         date="sep 2024 - July 2025 "
                         iconStyle={{ background: '#5bc0be', color: '#dde3ea',display:'flex',alignItems:'center',justifyContent:'center' }}
                         contentArrowStyle={{ borderRight: '30px solid  var(--accent)' }}
@@ -28,7 +28,7 @@ export default function Experience() {
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work "
-                        contentStyle={{ background: '#dde3ea', color: 'var(--text)',border:'4px solid var(--accent)',borderRadius:'12px' }}
+                        contentStyle={{ background: '#dde3ea', color: 'var(--light)',border:'4px solid var(--accent)',borderRadius:'12px' }}
                         date="sep 2024 - July 2025 "
                         iconStyle={{ background: '#5bc0be', color: '#dde3ea',display:'flex',alignItems:'center',justifyContent:'center' }}
                         contentArrowStyle={{ borderRight: '30px solid  var(--accent)' }}

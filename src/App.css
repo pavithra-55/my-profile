@@ -18,12 +18,15 @@
   --bs-btn-hover-border-color: #44aead;
   color: #082b2a;
 }
+
 .card:hover {
   transform: translateY(-5px);
   transition: .25s ease;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
-
+.light-text {
+  color: var(--light);
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

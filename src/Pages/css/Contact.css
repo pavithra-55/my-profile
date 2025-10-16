@@ -2,16 +2,16 @@
     padding: 5rem 0;
 }
 .contact-card {
-    background: linear-gradient(180deg, rgba(91, 192, 190, .08), rgba(91, 192, 190, .04));
-    border: 1px solid rgba(91, 192, 190, .25)
+    background: linear-gradient(180deg, rgba(1, 30, 29, 0.08), rgba(1, 22, 21, 0.04));
+    border: 2px solid rgba(2, 86, 85, 0.25)
 }
 .form-control {
-    background: rgba(255, 255, 255, .06);
+    background: rgba(255, 255, 255, 0.65);
     color: var(--text);
     border: 1px solid rgba(255, 255, 255, .15)
 }
 
 .form-control:focus {
-    background: rgba(255, 255, 255, .1);
-    color: var(--text)
+    background: rgba(255, 255, 255, .65);
+    color: var(--light)
 }

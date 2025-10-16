@@ -4,13 +4,13 @@
     
 }
 .navbar-brand{
-    color: white !important;
+    color: var(--text) !important;
     font-weight: 700 !important;
 }
 
 
 .navbar .nav-link {
-    color: #cfe3ff
+    color: var(--text)
 }
 
 .navbar .nav-link.active,
@@ -18,5 +18,5 @@
     color: var(--accent)
 }
 .navbar-toggler{
-    background: #cfe3ff;
+    background: var(--text);
 }

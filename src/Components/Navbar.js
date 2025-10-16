@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './css/Navbar.css';
 import { NavLink } from "react-router-dom";
 import { Navbar, Nav, Container } from "react-bootstrap";
-// import DarkLightToggle from "./DarkLightToggle";
+import DarkLightToggle from "./DarkLightToggle";
 
 export default function Navigation({ person }) {
   const [expended, setExpended] = useState(false);
@@ -18,8 +18,8 @@ export default function Navigation({ person }) {
         <Navbar.Brand as={NavLink} to="/">
           {person.name}
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Toggle aria-controls="navbar-nav" />
+        <Navbar.Collapse id="navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link as={NavLink} onClick={handleNavLinkClick} to="/">Home</Nav.Link>
             <Nav.Link as={NavLink} onClick={handleNavLinkClick} to="/about">About</Nav.Link>
@@ -29,7 +29,7 @@ export default function Navigation({ person }) {
             <Nav.Link as={NavLink} onClick={handleNavLinkClick} to="/experience">Experience</Nav.Link>
             <Nav.Link as={NavLink} onClick={handleNavLinkClick} to="/contact">Contact</Nav.Link>
           </Nav>&nbsp;&nbsp;&nbsp;
-          {/* <DarkLightToggle onClick={handleNavLinkClick}/> */}
+          <DarkLightToggle onClick={handleNavLinkClick}/>
         </Navbar.Collapse>
         
       </Container>

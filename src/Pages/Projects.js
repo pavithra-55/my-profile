@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Badge, Stack, Card, Modal } from "react-bootstrap";
-// import { Pagination } from "react-bootstrap";
 import './css/Projects.css';
 import { projectData } from '../Components/ProjectList';
 import PaginationList from "../Components/PaginationList";
@@ -11,6 +10,7 @@ export default function Projects() {
     const [selectedVideo, setSelectedVideo] = useState(null);
     const [proName, setProName] = useState("");
     const [projectPerPage, setProjectPerPage] = useState(3);
+    const [activePage, setActivePage] = useState(1);
  
     useEffect(() => {
         const updatePerPage = () => {
@@ -27,14 +27,13 @@ export default function Projects() {
         return () => window.removeEventListener("resize", updatePerPage);
     }, []);
 
-    //Pagination
-    const [activePage, setActivePage] = useState(1);
-    
+   
     const usePagination = true; //if you don't need pagination change true -> false
      
     useEffect(() => {
-    setActivePage(1);
-}, [projectPerPage]);
+        setActivePage(1);
+    }, [projectPerPage]);
+
     //Pagination get current Projects
     // const totalPages = Math.ceil(projectData.length / projectPerPage);
     const startIndex = (activePage - 1) * projectPerPage;
@@ -77,10 +76,10 @@ export default function Projects() {
                                 </div>
                                 <Card.Body>
                                     <h3>{project.projectName}</h3>
-                                    <Card.Text className="text-white">{project.description}</Card.Text>
+                                    <Card.Text className="text-info">{project.description}</Card.Text>
                                     <Stack direction="horizontal" gap={2}>
                                         {project.techStack.map((tech,index) => (
-                                            <Badge bg="secondary" key={index}>{tech}</Badge>
+                                            <Badge bg="info" key={index}>{tech}</Badge>
                                         ))}
                                         
                                     </Stack>
