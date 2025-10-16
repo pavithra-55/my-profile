@@ -6,13 +6,13 @@
     --soft: #3a506b;
     --light: #345b63;
 }
-[data-theme="dark"] {
-  --bg: #121212;
-  --muted: #1e1e1e;
-  --accent: #44aead;
-  --text: #e0f7fa;
-  --soft: #2a2a2a;
-  --light: #aefcff;
+[data-theme="light"] {
+  --bg: #c9cdda;
+  --muted: #767575;
+  --accent: #0ca19f;
+  --text: #0b0c0c;
+  --soft: #1c314a;
+  --light: #010f0f;
 }
 *,
 *::before,

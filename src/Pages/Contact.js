@@ -25,9 +25,9 @@ export default function Contact() {
                                     <li className="mb-2"><i className="bi bi-geo-alt me-2"></i> Coimbatore, India</li>
                                 </ul>
                                 <div className="d-flex gap-3 fs-5">
-                                    <a className="light-text" href="https://github.com/pavithra-55" aria-label="GitHub" target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a>
-                                    <a className="light-text" href="https://www.linkedin.com/in/pavithra1755ns" aria-label="LinkedIn" target="_blank" rel="noreferrer"><i className="bi bi-linkedin"></i></a>
-                                    <a className="light-text" href="https://leetcode.com/u/Pavi_55/" aria-label="Leetcode" target="_blank" rel="noreferrer"><i className="bi bi-code-slash"></i></a>
+                                    <a href="https://github.com/pavithra-55" aria-label="GitHub" target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a>
+                                    <a href="https://www.linkedin.com/in/pavithra1755ns" aria-label="LinkedIn" target="_blank" rel="noreferrer"><i className="bi bi-linkedin"></i></a>
+                                    <a href="https://leetcode.com/u/Pavi_55/" aria-label="Leetcode" target="_blank" rel="noreferrer"><i className="bi bi-code-slash"></i></a>
                                 </div>
                             </Card.Body>
                         </Card>

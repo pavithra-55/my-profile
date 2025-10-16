@@ -4,15 +4,15 @@
      display: grid;
      place-items: center;
      text-align: center;
-     background: linear-gradient(180deg, #29415a 0%, #62707e 60%);
-     color: #b6cde5;
+     /* background: linear-gradient(180deg, #29415a 0%, #62707e 60%);
+     color: #b6cde5; */
  }
  
  .names {
      font-size: 60px;
      font-weight: bold;
      text-shadow: 2px 2px 5px #00000066;
-     background: linear-gradient(45deg, #ACE5D1, #7ED6C2, #3BA99C);
+     background: linear-gradient(180deg, #014131ef, #245858, #33c4b3);
      -webkit-background-clip: text;
      background-clip: text;
      -webkit-text-fill-color: transparent;
